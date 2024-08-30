@@ -1,0 +1,91 @@
+/* dashboard.css */
+
+/* Add general styles for spacing and layout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; /* Change this to your preferred font */
+}
+/* dashboard.css */
+.bg-success {
+  background-color: #28a745; /* Define your success color */
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex: 1;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-background {
+  background-color: #f9f9f9; /* Adjust as needed */
+}
+
+.bg-accent {
+  background-color: #333; /* Adjust as needed */
+}
+
+.text-accent-foreground {
+  color: #fff; /* Adjust as needed */
+}
+
+.border-border {
+  border-color: #ddd; /* Adjust as needed */
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.space-x-4 {
+  margin-right: -1rem;
+}
+
+.space-x-4 > * {
+  margin-right: 1rem;
+}
+
+.space-y-2 {
+  margin-top: -0.5rem;
+}
+
+.space-y-2 > * {
+  margin-top: 0.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.md\:flex-row {
+  flex-direction: row;
+}
+.nav {
+  display: flex;
+  gap: 1rem;
+}

@@ -1,0 +1,23 @@
+ /* Custom CSS to ensure navbar takes full width */
+ body {
+  margin: 0; /* Remove default margin */
+}
+.navbar {
+  margin-bottom: 0; /* Remove bottom margin if needed */
+}
+.navbar-nav {
+  margin-left: auto; /* Push navigation items to the right */
+}
+/* Custom styling for pagination buttons */
+#prevPage, #nextPage {
+  background-color: #007bff; /* Blue color for buttons */
+  border: 1px solid #007bff; /* Border color */
+  color: white; /* Text color */
+  padding: 8px 16px; /* Padding for size */
+  font-size: 16px; /* Font size */
+}
+
+#prevPage:hover, #nextPage:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #0056b3; /* Darker border on hover */
+}
