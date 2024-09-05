@@ -21,3 +21,19 @@
   background-color: #0056b3; /* Darker blue on hover */
   border-color: #0056b3; /* Darker border on hover */
 }
+
+/* Add any custom styles here to match dashboard navbar */
+.navbar-nav .nav-link {
+    padding: 1rem; /* Adjust padding if needed */
+}
+
+
+
+.table td {
+  vertical-align: middle; /* Center content vertically */
+}
+
+.table .btn-container {
+  display: flex;
+  justify-content: center; /* Center button horizontally */
+}

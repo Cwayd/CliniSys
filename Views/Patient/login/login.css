@@ -1,0 +1,53 @@
+:root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+}
+
+.dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+}
+
+.font-custom {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    border: 2px solid transparent; 
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    transition: all 0.3s ease; 
+    background-color: #3b82f6;
+    color: white; 
+}
+
+button:hover {
+    background-color: maroon; 
+    color: white; 
+    border-color: #3b82f6; 
+}
+
+/* Container for input and icon */
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Icon styling */
+.input-group i {
+    position: absolute;
+    left: 1rem; /* Adjust as needed */
+    transition: transform 0.3s ease;
+}
+
+/* Floating effect */
+.input-group input {
+    padding-left: 3rem; /* Space for the icon */
+}
+
+.input-group:hover i {
+    transform: translateY(-10px); /* Float above the input */
+}

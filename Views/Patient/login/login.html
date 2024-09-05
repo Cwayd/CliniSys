@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+    <link href="login.css" rel="stylesheet"> <!-- Link to the external CSS file -->
+    <script src="login.js" defer></script> <!-- Link to the external JS file -->
+    <!-- Include Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Include Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-custom">
+    <div class="flex items-center justify-center min-h-screen bg-background">
+        <div class="hidden md:flex flex-col w-1/2 p-8 pl-24"> <!-- Increased padding-left to move content to the right -->
+            <h1 class="text-8xl font-semibold text-foreground mb-8">We treat every</h1>
+            <h1 class="text-8xl font-semibold text-foreground mb-8">person as</h1>
+            <h1 class="text-7xl font-semibold text-foreground mb-8">our family</h1>
+            <img aria-hidden="true" alt="doctor and patient illustration" src="https://www.shutterstock.com/image-vector/doctor-treat-patient-flat-design-600nw-2297963727.jpg" />
+        </div>
+        <div class="w-full md:w-1/2 p-8">
+            <!-- Move the form to the left -->
+            <div class="w-full md:w-4/5 mx-auto md:ml-12"> <!-- Add this container to adjust position -->
+                <form>
+                    <div class="mb-8 input-group border border-border rounded-lg bg-card">
+                        <!-- Username Icon and Input -->
+                        <i class="fas fa-user text-gray-1000"></i>
+                        <input class="w-full p-5 border-0 rounded-lg bg-card text-foreground focus:outline-none" type="text" id="username" placeholder="Username" required />
+                    </div>
+                    <div class="mb-8 input-group border border-border rounded-lg bg-card">
+                        <!-- Password Icon and Input -->
+                        <i class="fas fa-lock text-gray-1000"></i>
+                        <input class="w-full p-5 border-0 rounded-lg bg-card text-foreground focus:outline-none" type="password" id="password" placeholder="Password" required />
+                    </div>
+                    <div class="flex justify-between items-center mb-5">
+                        <a href="#" class="text-accent text-sm">Forgot Password?</a>
+                        <a href="#" class="text-accent text-sm">Register</a>
+                    </div>
+                    <div class="flex justify-center">
+                        <button type="submit" class="w-1/2 bg-blue-500 text-white py-3 px-4 font-bold text-xl rounded-lg transition-all duration-300 hover:bg-maroon-900">
+                            Login Now
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
